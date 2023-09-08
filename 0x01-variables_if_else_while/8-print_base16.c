@@ -13,8 +13,8 @@ int main(void)
 	char C = 'a';
 	int a;
 
-	for (a = 0; a <= 9; a++)
-		putchar("%d", a);
+	for (a = '0'; a <= '9'; a++)
+		putchar(a + '0');
 	while (C <= 'f')
 	{
 		putchar(C);
