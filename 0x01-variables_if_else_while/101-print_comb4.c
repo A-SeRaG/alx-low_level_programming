@@ -21,7 +21,7 @@ int main(void)
 			C = 0;
 			while (C <= 9)
 			{
-				if (A < B < C)
+				if ((A < B) && (B < C))
 				{
 					putchar(A + 48);
 					putchar(B + 48);
