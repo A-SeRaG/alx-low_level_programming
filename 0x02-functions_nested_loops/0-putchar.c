@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include <main.h>
 
 /**
  *main - Entry point
@@ -14,7 +14,7 @@ int main(void)
 	int C;
 
 	for (C = 0; C < 8; C++)
-		putchar(s[C]);
-	putchar("\n");
+		_putchar(s[C]);
+	_putchar('\n');
 	return (0);
 }
