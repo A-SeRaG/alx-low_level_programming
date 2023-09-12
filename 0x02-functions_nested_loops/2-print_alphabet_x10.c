@@ -15,7 +15,6 @@ void print_alphabet_x10(void)
 
 		for (ch = 'a'; ch <= 'z'; ch++)
 			_putchar(ch);
-		if (i < 9)
-			_putchar('\n');
+		_putchar('\n');
 	}
 }
