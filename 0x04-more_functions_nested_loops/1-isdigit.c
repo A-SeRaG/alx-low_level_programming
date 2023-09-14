@@ -2,8 +2,7 @@
 
 /**
  * _isdigit - check from 0 to 9
- *
- * @c: digit to be checking
+ * @c: char to be checked
  *
  * Return 0 or 1
 */
