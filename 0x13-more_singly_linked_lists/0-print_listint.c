@@ -4,8 +4,8 @@
  * print_listint - prints all the elements of the list
  * @h: pointer to first node
  * 
- * Return: number of nodes
-*/
+ * Return: size of list
+ */
 
 size_t print_listint(const listint_t *h)
 {
