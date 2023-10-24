@@ -1,8 +1,9 @@
 #include "lists.h"
 
 /**
- * print_listint - print all the elements of the list
- * @h: pointer to firist node
+ * print_listint - prints all the elements of the list
+ * @h: pointer to first node
+ * 
  * Return: number of nodes
 */
 
