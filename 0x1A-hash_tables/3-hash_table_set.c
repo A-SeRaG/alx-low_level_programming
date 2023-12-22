@@ -18,7 +18,7 @@ hash_node_t *make_node(const char *key, const char *value)
 	if (node->key == NULL)
 	{
 		free(node);
-		return (NULL):
+		return (NULL);
 	}
 	node->value = strdup(value);
 	if (node->value == NULL)
@@ -63,7 +63,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	hash_node = make_node(key, value);
 	if (hash_node == NULL)
 		return (0);
-	hash_node->next = ht ->array[index];
+	hash_node->next = ht->array[index];
 	ht->array[index] = hash_node;
 	return (1);
 }
