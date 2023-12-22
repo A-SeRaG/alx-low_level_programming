@@ -33,6 +33,7 @@ hash_node_t *make_node(const char *key, const char *value)
 
 /**
  * hash_table_set - function that adds an element to the hash table.
+ * @ht: pointer to hash_table
  * @key: is the key
  * @value: is the value
  * Retirn: 1 if it succeeded, 0 otherwise
