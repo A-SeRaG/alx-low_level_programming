@@ -11,7 +11,7 @@ hash_node_t *make_node(const char *key, const char *value)
 {
 	hash_node_t *node;
 
-	node = malloc()sizeof(hash_node_t);
+	node = malloc(sizeof(hash_node_t));
 	if (node == NULL)
 		return (NULL);
 	node->ket = strdup(key);
