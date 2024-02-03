@@ -36,7 +36,7 @@ hash_node_t *make_node(const char *key, const char *value)
  * @ht: pointer to hash_table
  * @key: is the key
  * @value: is the value
- * Retirn: 1 if it succeeded, 0 otherwise
+ * Return: 1 if it succeeded, 0 otherwise
 */
 
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
@@ -48,7 +48,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	if (ht == NULL || ht->array == NULL || ht->size == 0 ||
 			key == NULL || strlen(key) == 0 || value == NULL)
 		return (0);
-	index = key_index((const char *)key, ht->size);
+	index = key_index((const unsigned char *)key, ht->size);
 	temp = ht->array[index];
 	while (temp != NULL)
 	{
