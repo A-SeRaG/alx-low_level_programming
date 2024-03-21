@@ -10,8 +10,5 @@ clean:
 	$(RM) *~ $(NAME)
 oclean:
 	$(RM) $(OBJ)
-fclean:
-	oclean clean
-re:
-	fclean all
-
+fclean: oclean clean
+re: fclean all
